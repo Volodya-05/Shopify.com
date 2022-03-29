@@ -1,0 +1,118 @@
+.optionContainer{
+    display: flex;
+    width: 90%;
+    margin: 150px auto 0 auto;
+    .optionContainerImage{
+        width: 90%;
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+    .optionContainerRight{
+        width: 100%;
+        margin-left: 220px;
+        .colors{
+            margin: 5px;
+            color: white;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .colorsContainer{
+            display: flex;
+            margin: 20px 0;
+            .childBlack{
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                margin: 0 10px;
+                cursor: pointer;
+            }
+        }
+        .sizes{
+            margin: 20px 0;
+        }
+        .sizeContainer{
+            display: flex;
+            .black{
+                width: 50px;
+                background-color: black;
+                color: white;
+                margin: 0 7px;
+                padding: 5px;
+                text-align: center;
+            }
+            .sizeNumber{
+                width: 50px;
+                margin: 0 7px;
+                padding: 5px;
+                border: 1px solid black;
+                text-align: center;
+                cursor: pointer;
+                &:hover{
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+        .quantityContainer{
+            display: flex;
+            justify-content: space-between;
+            margin: 40px 0 ;
+            .quantityBtn{
+                border: 1px solid gray;
+                font-size: 20px;
+                background-color: white;
+                padding: 5px 15px 7px 15px;
+                cursor: pointer;
+                color: black;
+            }
+            .quantityNumber{
+                padding: 9px 15px;
+                margin-bottom: 5px;
+                border: 1px solid gray;
+                background-color: rgb(226, 226, 226);
+            }
+        }
+        .catrBtn{
+            width: 100%;
+            background-color: white;
+            color: black;
+            height: 45px;
+            border: 1px solid black;
+            cursor: pointer;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+        .buyBtn{
+            width: 100%;
+            border: 1px solid rgb(40, 66, 40);
+            background-color: rgb(40, 66, 40);
+            color: white;
+            cursor: pointer;
+            height: 45px;
+            margin: 20px 0 ;
+            &:hover{
+                background-color: rgb(20, 31, 20);
+            }
+        }
+        .socIconsContainer{
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid black;
+            padding-bottom: 20px;
+            .icons{
+                margin: 0 10px;
+                font-size: 22px;
+                opacity: 0.8;
+                color: rgb(51, 51, 51);
+            }
+        }
+    }
+}
+.loading{
+    text-align: center;
+    font-size: 40px;
+    height: 100vh;
+    padding-top: 100px;
+}

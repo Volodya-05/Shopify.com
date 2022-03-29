@@ -1,0 +1,95 @@
+.optionDownMenuContainer{
+    display: flex;
+    width: 100%;
+
+
+    .optionDownMenuContainerLeftChild{
+        width: 70%;
+        margin-left: 50px;
+    }
+
+    .guaranateeContainet{
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px 0 0 ;
+        font-size: 18px;
+        border-top: 1px solid black;
+        width: 92%;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+
+    .bolder{
+        font-weight: bolder;
+    }
+
+    .trigger{
+        width: 90%;
+        overflow: hidden;
+        font-size: 18px;
+        height: 0;
+        transition: 1s;
+    }
+
+    .activeTrigger{
+        transition: 1s;
+        height: 350px;
+    }
+
+    .activeTrigger2{
+        transition: 1s;
+        height: 600px;
+    }
+
+    .sizeGiudeContainer{
+        margin-top: 10px;
+        transition: 1s;
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        overflow: hidden;
+        height: 0;
+    }
+
+    .guideContChild{
+        padding: 10px;
+    }
+
+    .guideContChild p {
+        margin: 10px 0;
+    }
+
+    .optionDownMenuContainerRightChild{
+        width: 45%;
+        margin-right: 20px;
+    }
+
+    .optionDownMenuContainerRightChild li{
+        margin: 15px 0;
+    }
+
+    .trigger3{
+        overflow: hidden;
+        height: 0;
+        transition: 1s;
+    }
+
+    .activeTrigger3{
+        transition: 1s;
+        height: 200px;
+    }
+
+    .zagalovka{
+        background-color: rgb(219, 219, 219);
+        width: 92%;
+        padding: 10px ;
+        overflow: hidden;
+        height: 35px;
+    }
+    
+    .trigger3 p{
+        margin: 25px 0;
+    }
+}
+    
+    
