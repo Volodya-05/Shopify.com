@@ -1,1 +1,0 @@
-# Practics group 3
