@@ -73,7 +73,7 @@ const AllProducts = () => {
             </div>
             <div className="theStore">
                 <h2 >The store</h2>
-                <div className="border" style={{margin:'20px auto'}}></div>
+                <div className="border"></div>
                 <p >Choose well and buy less. We believe in owning fewer, quality things and 
                     making them last a long time. That’s why if any of our product ever breaks 
                     down, you can send it back to us and we’ll repair it.</p>    

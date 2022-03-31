@@ -13,6 +13,12 @@
         margin: 10px 0;
         font-weight: lighter;
     }
+    .border{
+        width: 60px;
+        height: 3px;
+        background-color: #444631;
+        margin: 15px auto;
+    }
     p{
         width: 500px;
         margin: 0 auto;
@@ -151,6 +157,25 @@
                 transition: 1s;
             }
         }
+
+        .aviabil{
+
+            form{
+                display: flex;
+                flex-direction: column;
+                span{
+                    margin: 20px 0px 10px 0px;
+                }
+                label{
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 10px;
+                    p{
+                        margin-left: 10px;
+                    }
+                }
+            }      
+        }
     }
 
     .div2 {
@@ -180,10 +205,8 @@
     }
     .products{
         display: grid;
-        padding: 0 50px;
-        margin:  0 auto;
-        // grid-area: 2 / 2 / 3 / 3;
-        grid-template-columns: 1fr 1fr 1fr;
+        // grid-area: 1 / 2 / 3 /;
+        grid-template-columns: 320px 320px 320px;
         grid-gap: 55px;
         position: relative;
         .notFound{
@@ -193,14 +216,13 @@
         grid-area: 1/2;
         }
         .gridChild{
+            background-color: #f1f1f1;
             text-align: center;
             padding-bottom:  20px;
-            margin-right: 20px ;
             position: relative;
             transition: 1s;
             img{
-                height: 300px;
-                border-radius: 20px;
+                height: 330px;
             }
             .title{
                 padding-top: 25px;
@@ -237,7 +259,6 @@
         .gridChild:hover{
             transform: scale(1.04);
             transition: 1s;
-            border-radius: 20px;
         }
         
         

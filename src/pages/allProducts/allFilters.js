@@ -40,6 +40,21 @@ const AllFilters = (props) => {
                     </div>
                 </div>
             </div> 
+
+            <div className="aviabil">
+            <form action="#" method="#" autocomplete="off" name="reg">
+              <span>Availability</span>
+                <label>
+                    <input type="radio" name="gender" />
+                    <p>In Stock</p>
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" />
+                    <p>Out of stock</p>
+                </label>
+            </form>  
+            </div>
         </div>
     )
 }

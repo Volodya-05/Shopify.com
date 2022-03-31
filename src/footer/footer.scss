@@ -18,11 +18,12 @@
     p{
         margin: 5px 5px 15px 0px;
         letter-spacing:2px;
+        font-size: 16px;
     }
     li{
         margin: 15px 10px 10px 0px;
         list-style-type: none;
-        color: rgba(37, 33, 33, 0.74);
+        color: #111111CC;
         cursor: pointer;
         transition: .4s;
     }
@@ -30,8 +31,6 @@
         color: #000000;
     }
     
-    
-
     .about{
         width: 450px;
         margin-right: 20px;
@@ -41,18 +40,26 @@
         }
     }
     .social{
+        margin: 15px 10px 10px 0px;
         .icons{
             position: relative;
-            border: 1px solid black;
+            border: 1px solid rgb(51, 51, 51);
             width: 40px;
             height: 40px;
             border-radius: 20px;
-            display: flex;
             margin-right: 10px;
-            cursor: pointer;
+            margin: 10px;
+            cursor: pointer;  
+            &:hover{
+                border-color: rgb(0, 0, 0);
+            }     
             a{
-                color: black;
-            }
+                font-size: 15px;
+                color: rgb(51, 51, 51); 
+                &:hover{
+                   color: #000000;
+                }  
+            } 
         }
         i{
             position: absolute;
